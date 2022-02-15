@@ -41,7 +41,7 @@ function Users() {
       )}
       </div>
       <div className="prev-next">
-        <button className='prev-btn22' onClick={()=> setNumPage(numPage - 1)}>Prev</button>
+        <button className='prev-btn' onClick={()=> setNumPage(numPage - 1)}>Prev</button>
         <button className='next-btn' onClick={()=> setNumPage(numPage + 1)}>Next</button>
       </div>
     </div>
